@@ -1,6 +1,6 @@
-graingem — tiny image dithering CLI
+graingem — tiny image dithering CLI & GUI
 
-A small command‑line tool to dither PNG images using several classic algorithms and palettes.
+tool to dither PNG images using several algorithms and palettes.
 
 Requirements
 - Ruby 2.6+ (or newer)
@@ -10,6 +10,8 @@ Quick start
 1) Install dependency: gem install chunky_png
 2) Run the CLI:
    ruby main.rb input.png output.png [options]
+   or Run GUI:
+   ruby GUI.rb
 
 Common options
 - --palette NAME
